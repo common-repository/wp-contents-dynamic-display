@@ -1,0 +1,263 @@
+div#wp-master-info-panel {
+    margin: 15px;
+    padding: 10px;
+    background-color: gold;
+}
+div#wp-master-info-panel h3 {
+    margin: 10px;
+}
+div#wp-master-info-panel h4 {
+    margin: 10px;
+}
+div#wp-master-info-panel div.wp-master-info-section p {
+    font-size: 16px;
+		margin:5px;
+}
+div#wp-master-info-panel div.wp-master-info-section p a {
+	font-weight:bold;
+}
+div#wp-master-info-panel div.wp-master-promo-section {
+    padding: 15px;
+    background-color: blanchedalmond;
+    margin: 10px;
+}
+div#wp-master-info-panel div.wp-master-promo-section p {
+	margin: 5px 10px;
+}
+
+/* Plugin Custom Post Type Page Style */
+.wpcdd-sticky-metabox {
+	position: fixed;
+	display: inline;
+	margin-left: 20px;
+}
+.topzero{
+	top:35px;
+}
+
+.postbox{
+	display:none;
+}
+#submitdiv, #wpcdd_shortcode, #wpcdd_rules {
+	display:block;
+}
+/* WPCDD Specific Styling */
+#wpcdd-default {
+  background-color: aliceblue;
+  padding: 35px;
+}
+#wpcdd-default .wpcdd-rules-section p {
+  font-size: 16px;
+}
+#wpcdd-actions {
+	width:100%;
+	display:block;
+	box-sizing:border-box;
+	clear:both;
+	padding:0;
+	margin:10px 0;
+}
+#wpcdd-actions .wpcdd-button {
+  background-color: #3b9d5e;
+  display: inline-block;
+  padding: 15px 15px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFF;
+}
+#wpcdd-actions .wpcdd-button:hover {
+  background-color: #45b96f;
+}
+#wpcdd-actions .wpcdd-button:hover {
+	cursor:pointer;
+}
+
+.wpcdd-rule {
+	width: 100%;
+	border: 1px solid #000;
+	padding: 10px;
+	margin: 0 0 15px 0;
+	display: block;
+	box-sizing: border-box;
+}
+.wpcdd-rule:nth-child(odd) {
+	background-color:#f1f1f1;
+}
+.wpcdd-rule:nth-child(even) {
+	background-color:#e1e1e1;
+}
+.wpcdd-rule .wpcdd-control-bar {
+	width:100%;
+	box-sizing:border-box;
+	display:block;
+	clear:both;
+	margin:0 0 10px 0;
+	padding:0;
+}
+.wpcdd-rule .wpcdd-control-bar p {
+	margin:0;
+	padding:0;
+  font-size: 14px;
+  font-weight: 700;
+  border-bottom: 1px solid #000;
+}
+.wpcdd-rule .wpcdd-control-bar .wpcdd-rule-title {
+	display:inline-block;
+	clear:left;
+  padding-left: 10px;
+}
+.wpcdd-rule .wpcdd-control-bar .wpcdd-drag {
+  display: inline-block;
+  background-color: #628bff;
+  color: #FFF;
+  width: 35px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 16px;
+}
+.wpcdd-rule .wpcdd-control-bar .wpcdd-drag:hover {
+	cursor:move;
+}
+.wpcdd-rule .wpcdd-control-bar .wpcdd-remove {
+	float: right;
+  display: inline-block;
+  clear: right;
+  text-align: right;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #777;
+  color: #FFF;
+}
+.wpcdd-rule .wpcdd-control-bar .wpcdd-remove:hover {
+  background-color: #ff5454;
+}
+.wpcdd-rule .wpcdd-control-bar .wpcdd-remove:hover {
+	cursor:pointer;
+}
+.wpcdd-rule h3 {
+	padding:0;
+	margin:0;
+}
+
+.wpcdd-rule .wpcdd-content-section {
+	width: 50%;
+	display: inline-block;
+	margin:0;
+	padding:0;
+	float:left;
+}
+.wpcdd-rule .wpcdd-content-section h3, .wpcdd-rule .wpcdd-rules-section h3 {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #818181;
+  margin-right: 15px;
+}
+.wpcdd-rule .wpcdd-rules-section {
+	width: 50%;
+	display: inline-block;
+	margin:0;
+	padding:0;
+}
+.wpcdd-rule input {
+	margin:0;
+	max-width:100%;
+}
+.wpcdd-rule select {
+	margin:0;
+}
+.wpcdd-rule .wpcdd-conditionals {
+	float: right;
+	display: inline-block;
+	width: 65%;
+}
+/*
+.wpcdd-rule .wpcdd-conditionals .sol-container {
+	display: block;
+	position: relative;
+	width: 100%!important;
+	height: 100%!important;
+}
+.wpcdd-rule .wpcdd-conditionals .sol-inner-container {
+	display: block;
+	position: relative;
+	width: 100%;
+	margin: 0 0 10px;
+}
+.wpcdd-rule .wpcdd-conditionals .sol-current-selection {
+	float: right;
+	display: block;
+	position: absolute;
+	top: 100%;
+}
+*/
+.wpcdd-rule .wpcdd-content-section > input,
+.wpcdd-rule .wpcdd-content-section > select,
+.wpcdd-rule .wpcdd-rules-section > input,
+.wpcdd-rule .wpcdd-rules-section > select,
+.wpcdd-rule .sol-container .sol-inner-container {
+  height: 36px;
+  border: 1px solid #818181;
+  vertical-align: middle;
+  border-radius: 0;
+}
+.wpcdd-rule .wpcdd-content-section input {
+  width: 79%;
+}
+.wpcdd-rule .sol-container .sol-inner-container {
+  background-color: #FFF;
+  height: 34px;
+}
+#wpcdd-control-panel .wpcdd-cp-option input {
+  margin-left: 5px;
+}
+.wpcdd-rule .wpcdd-rules-section h3 span {
+  font-weight: normal;
+  font-size: 14px;
+}
+form#wpcdd-control-panel-options h2 {
+  font-size: 25px;
+}
+form#wpcdd-control-panel-options table.form-table {
+  background-color: #FFF;
+}
+form#wpcdd-control-panel-options table.form-table th {
+  padding-left: 20px;
+}
+
+.wpcdd-rule {}
+.wpcdd-rule {}
+.wpcdd-rule {}
+
+/* jQuery UI Styles Override */
+.wpcdd-placeholder {
+	background-color:pink;
+	display:block;
+	width:100%;
+	margin-bottom:15px;
+}
+
+/* Responsive */
+@media (max-width: 1700px) {
+.wpcdd-rule .wpcdd-content-section > input, .wpcdd-rule .wpcdd-content-section > select, .wpcdd-rule .wpcdd-rules-section > input, .wpcdd-rule .wpcdd-rules-section > select, .wpcdd-rule .sol-container .sol-inner-container {
+  width: 100%;
+  margin-bottom: 5px;
+}
+.wpcdd-rule .wpcdd-conditionals {
+  width: 100%;
+}
+.wpcdd-rule .wpcdd-content-section {
+  width: 48%;
+  padding: 0 10px 0 0;
+}
+.wpcdd-rule .wpcdd-content-section h3, .wpcdd-rule .wpcdd-rules-section h3 {
+  margin-right: 0;
+}
+}
+
+@media (max-width: 1070px) {
+.wpcdd-rule .wpcdd-content-section,
+.wpcdd-rule .wpcdd-rules-section {
+  width: 100%;
+  padding: 0;
+}
+}
